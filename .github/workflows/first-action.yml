@@ -1,0 +1,13 @@
+name: First Workflow
+
+# when the workflow is trigerred : Is trigerred manually
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello GHA"
+      - name: Print Bye
+        run: echo "Bye"

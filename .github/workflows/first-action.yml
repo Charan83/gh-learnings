@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello
-        run: echo "Hello GHA"
+        run: |
+          echo "Hello GHA"
+          echo "Lets get started with GHA"
       - name: Print Bye
         run: echo "Bye"
